@@ -1,0 +1,12 @@
+# Dataset folders and archives
+cotton/
+cotton_split/
+cotton-leaf-dataset.zip
+
+# Notebook versions (keeping only cotton_classification.ipynb)
+Multimodelfusion.ipynb
+Multimodelfusion_v1.ipynb
+Multimodelfusion_v2.ipynb
+Multimodelfusion_v2_gpu.ipynb
+Multimodelfusion_v3.ipynb
+Multimodelfusion_v4.ipynb

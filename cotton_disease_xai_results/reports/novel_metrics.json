@@ -1,0 +1,131 @@
+{
+    "cdac": {
+        "concat": {
+            "intra_class_consistency": {
+                "bacterial_blight": 0.3041522204875946,
+                "curl_virus": 0.2923840582370758,
+                "fussarium_wilt": 0.48089727759361267,
+                "healthy": 0.3310272991657257
+            },
+            "mean_intra_consistency": 0.3521152138710022,
+            "inter_class_separability": 0.4696960151195526,
+            "cdac_score": 0.4109056144952774,
+            "samples_per_class": {
+                "bacterial_blight": 3.0,
+                "curl_virus": 3.0,
+                "fussarium_wilt": 3.0,
+                "healthy": 3.0
+            }
+        },
+        "adaptive": {
+            "intra_class_consistency": {
+                "bacterial_blight": 0.28839680552482605,
+                "curl_virus": 0.29477640986442566,
+                "fussarium_wilt": 0.4760169982910156,
+                "healthy": 0.32775381207466125
+            },
+            "mean_intra_consistency": 0.34673600643873215,
+            "inter_class_separability": 0.4826321601867676,
+            "cdac_score": 0.41468408331274986,
+            "samples_per_class": {
+                "bacterial_blight": 3.0,
+                "curl_virus": 3.0,
+                "fussarium_wilt": 3.0,
+                "healthy": 3.0
+            }
+        },
+        "gated": {
+            "intra_class_consistency": {
+                "bacterial_blight": 0.2938638925552368,
+                "curl_virus": 0.2646035850048065,
+                "fussarium_wilt": 0.4806399643421173,
+                "healthy": 0.3147260844707489
+            },
+            "mean_intra_consistency": 0.3384583815932274,
+            "inter_class_separability": 0.47561329106489814,
+            "cdac_score": 0.40703583632906276,
+            "samples_per_class": {
+                "bacterial_blight": 3.0,
+                "curl_virus": 3.0,
+                "fussarium_wilt": 3.0,
+                "healthy": 3.0
+            }
+        },
+        "attention": {
+            "intra_class_consistency": {
+                "bacterial_blight": 0.29837825894355774,
+                "curl_virus": 0.3084894120693207,
+                "fussarium_wilt": 0.47996583580970764,
+                "healthy": 0.3126220405101776
+            },
+            "mean_intra_consistency": 0.3498638868331909,
+            "inter_class_separability": 0.4651059458653132,
+            "cdac_score": 0.40748491634925205,
+            "samples_per_class": {
+                "bacterial_blight": 3.0,
+                "curl_virus": 3.0,
+                "fussarium_wilt": 3.0,
+                "healthy": 3.0
+            }
+        },
+        "weighted_sum": {
+            "intra_class_consistency": {
+                "bacterial_blight": 0.2989676296710968,
+                "curl_virus": 0.29526206851005554,
+                "fussarium_wilt": 0.48832467198371887,
+                "healthy": 0.3285869359970093
+            },
+            "mean_intra_consistency": 0.3527853265404701,
+            "inter_class_separability": 0.4748521248499552,
+            "cdac_score": 0.41381872569521266,
+            "samples_per_class": {
+                "bacterial_blight": 3.0,
+                "curl_virus": 3.0,
+                "fussarium_wilt": 3.0,
+                "healthy": 3.0
+            }
+        }
+    },
+    "ug_xai": {
+        "concat": {
+            "high_unc_mean_stability": 0.8617855310440063,
+            "low_unc_mean_stability": 0.7573398264317677,
+            "high_unc_count": 1,
+            "low_unc_count": 29,
+            "ug_xai_score": 0.8304518196603347,
+            "conformal_threshold": 0.09391038435218985
+        },
+        "adaptive": {
+            "high_unc_mean_stability": 0.8495350976785024,
+            "low_unc_mean_stability": 0.7554591748686065,
+            "high_unc_count": 2,
+            "low_unc_count": 28,
+            "ug_xai_score": 0.8213123208355336,
+            "conformal_threshold": 0.10344434306569347
+        },
+        "gated": {
+            "high_unc_mean_stability": 0.7918243209520976,
+            "low_unc_mean_stability": 0.7569679552245709,
+            "high_unc_count": 2,
+            "low_unc_count": 28,
+            "ug_xai_score": 0.7813674112338396,
+            "conformal_threshold": 0.08891352075729927
+        },
+        "attention": {
+            "high_unc_mean_stability": 0.0,
+            "low_unc_mean_stability": 0.7618371592627633,
+            "high_unc_count": 0,
+            "low_unc_count": 30,
+            "ug_xai_score": 0.22855114777882898,
+            "conformal_threshold": 0.24953310333029202
+        },
+        "weighted_sum": {
+            "high_unc_mean_stability": 0.8508237898349762,
+            "low_unc_mean_stability": 0.749811589717865,
+            "high_unc_count": 2,
+            "low_unc_count": 28,
+            "ug_xai_score": 0.8205201297998428,
+            "conformal_threshold": 0.1251853330291971
+        }
+    }
+}

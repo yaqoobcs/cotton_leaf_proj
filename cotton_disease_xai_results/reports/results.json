@@ -1,0 +1,57 @@
+{
+    "concat": {
+        "test_accuracy": 99.70930232558139,
+        "test_f1": 0.9970931238467251,
+        "best_val_accuracy": 99.63503649635037,
+        "per_class_accuracy": {
+            "bacterial_blight": 100.0,
+            "curl_virus": 100.0,
+            "fussarium_wilt": 100.0,
+            "healthy": 98.83720930232558
+        }
+    },
+    "adaptive": {
+        "test_accuracy": 98.25581395348837,
+        "test_f1": 0.9825901535616249,
+        "best_val_accuracy": 99.63503649635037,
+        "per_class_accuracy": {
+            "bacterial_blight": 100.0,
+            "curl_virus": 97.61904761904762,
+            "fussarium_wilt": 98.80952380952381,
+            "healthy": 96.51162790697676
+        }
+    },
+    "gated": {
+        "test_accuracy": 97.96511627906976,
+        "test_f1": 0.9795569648977279,
+        "best_val_accuracy": 99.27007299270073,
+        "per_class_accuracy": {
+            "bacterial_blight": 100.0,
+            "curl_virus": 94.04761904761905,
+            "fussarium_wilt": 100.0,
+            "healthy": 97.67441860465115
+        }
+    },
+    "attention": {
+        "test_accuracy": 95.34883720930233,
+        "test_f1": 0.9539602532086934,
+        "best_val_accuracy": 97.81021897810218,
+        "per_class_accuracy": {
+            "bacterial_blight": 95.55555555555556,
+            "curl_virus": 94.04761904761905,
+            "fussarium_wilt": 100.0,
+            "healthy": 91.86046511627907
+        }
+    },
+    "weighted_sum": {
+        "test_accuracy": 99.12790697674419,
+        "test_f1": 0.9912745394140744,
+        "best_val_accuracy": 99.27007299270073,
+        "per_class_accuracy": {
+            "bacterial_blight": 100.0,
+            "curl_virus": 96.42857142857143,
+            "fussarium_wilt": 100.0,
+            "healthy": 100.0
+        }
+    }
+}

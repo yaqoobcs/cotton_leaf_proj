@@ -1,0 +1,6 @@
+Fusion Approach,Accuracy (%),Precision,Recall,F1 Score,Cohen's Kappa,MCC,AUC
+Concatenation Fusion,98.84,0.9886,0.9884,0.9884,0.9845,0.9845,0.9994
+Attention Fusion,99.42,0.9943,0.9942,0.9942,0.9922,0.9923,0.9999
+Weighted Fusion,98.26,0.9829,0.9826,0.9826,0.9767,0.9768,0.9991
+Ensemble Fusion,98.55,0.9859,0.9855,0.9855,0.9806,0.9807,0.9992
+XAI-Guided Fusion (NOVEL),97.38,0.9746,0.9738,0.9738,0.9651,0.9654,0.9990

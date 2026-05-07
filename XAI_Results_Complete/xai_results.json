@@ -1,0 +1,63 @@
+{
+    "model_path": "Complete_Plant_Disease_System_20260507_092731/Model/best_xai_guided_model.pth",
+    "num_samples": 10,
+    "successful": 10,
+    "class_names": [
+        "bacterial_blight",
+        "curl_virus",
+        "fussarium_wilt",
+        "healthy"
+    ],
+    "results": [
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/5586201.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/P1010086jpg - Copy.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact10.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact106.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact112.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact120.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact130.jpg"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact133.png"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact137.png"
+        },
+        {
+            "cls": "bacterial_blight",
+            "predicted": 0,
+            "path": "cotton_split/Test/bacterial_blight/bact142.png"
+        }
+    ]
+}
